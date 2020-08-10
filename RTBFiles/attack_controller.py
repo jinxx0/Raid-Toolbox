@@ -1658,7 +1658,7 @@ elif mode == 'gamechange':
             gamejson = {
                 "name": game,
                 "type": 1,
-                "url": "https://www.twitch.tv/DEADBREAD'S_RAID_TOOLBOX"
+                "url": "https://www.twitch.tv/" +url
             }
         elif type == "Listening to":
             gamejson = {
